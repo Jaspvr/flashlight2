@@ -112,7 +112,7 @@ function animate() {
 	c.clearRect(0, 0, innerWidth, innerHeight);
 	//make the background black
 	c.fillStyle = 'black';
-	c.fillRect(0,0,1000,1000);
+	c.fillRect(0,0,innerWidth,innnerHeight);
 
 	//iterate through all circles
 	for(var i = 0; i<circleArray.length; i++){
